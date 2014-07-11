@@ -3,6 +3,10 @@ Arduino Projects
 
 A collection of previous work with LED cubes and matrices from 2009-2010. Code adapted from my high-school team project of building and programming a 4x4x4 LED cube.
 
+Further Documentation:
+
+* [LED Cube construction, schematics, and programming](doc/LedCube.md)
+
 Software
 ========
 Software has been developed for Arduino IDE release 0017 and tested on an Adruino Duemilanove (ATMega328).

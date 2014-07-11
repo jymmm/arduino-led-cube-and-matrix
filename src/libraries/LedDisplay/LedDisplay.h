@@ -8,7 +8,11 @@
 #ifndef LEDDISPLAY_H_
 #define LEDDISPLAY_H_
 
-#include <WProgram.h>;
+#if defined(ARDUINO) && ARDUINO >= 100
+    #include <Arduino.h>
+#else
+    #include <WProgram.h>
+#endif
 #include <../LedControl/LedControl.h>;
 
 class LedDisplay : public LedControl {
@@ -21,7 +25,6 @@ public:
 
 	void allOff();
 	void allOn();
-
 
 	void pushData ();
 	void importData ( unsigned short int _display_state[16] );

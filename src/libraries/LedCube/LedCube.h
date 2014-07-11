@@ -8,7 +8,13 @@
 #ifndef LEDCUBE_H_
 #define LEDCUBE_H_
 
-#include <WProgram.h>;
+
+#if defined(ARDUINO) && ARDUINO >= 100
+    #include <Arduino.h>
+#else
+    #include <WProgram.h>
+#endif
+
 #include <../LedControl/LedControl.h>;
 
 class LedCube : public LedControl {

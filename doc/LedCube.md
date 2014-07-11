@@ -1,7 +1,7 @@
 # LED Cube Library Overview
 The LED Cube library is written specifically for the construction scheme outlined in this document, which may differ from other guides for building LED cubes. 
 
-![LED Cube Prototype Photo](ledcube_photo.png);
+![LED Cube Prototype Photo](ledcube_photo.png)
 
 The system is based on three distinct parts:
 
